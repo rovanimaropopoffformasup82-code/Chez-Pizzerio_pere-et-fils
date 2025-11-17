@@ -1,0 +1,21 @@
+nav {
+    width: 1050px;
+    min-height: 200px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+    list-style: none;
+    
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
