@@ -1,6 +1,25 @@
+.logo {
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
 nav {
-    width: 1050px;
+    width: 1400px;
     min-height: 200px;
+    display: flex;
+    align-items: center;
 }
 
 nav ul {
@@ -18,4 +37,8 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bold;
+}
+
+nav ul li a:hover {
+    color:#d38e26;
 }

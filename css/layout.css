@@ -22,8 +22,8 @@ header {
    color: #000;
 
    display: flex;
-   justify-content: space-evenly;
-   padding: 20px;
+   justify-content: space-between;
+   padding: 20px 40px;
    align-items: center;
    
 }
