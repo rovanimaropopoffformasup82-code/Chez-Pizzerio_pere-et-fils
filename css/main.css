@@ -1,7 +1,6 @@
 .hero {
     width: 100%;
-   min-height: 500px;
-    margin: 0;
+    min-height: 500px;
     overflow: hidden; /* Pour éviter que l'image dépasse du conteneur */
   
 }
@@ -11,5 +10,52 @@
     height: 100%;
     object-fit: cover; /* Pour que l'image couvre tout le conteneur sans déformation */
     object-position: center; /* Centrer l'image dans le conteneur */  
+    display: block;
     
 }
+
+section .services {
+  background-color: #816c0d;
+  display: flex;
+  flex-direction: column; /********/
+  justify-content: center;
+
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #ec0707;
+    margin-bottom: 20px;
+}
+
+ section.services .position-des-colonnes {
+     display: flex;
+     justify-content: space-around;
+  }
+
+  section.services .position-des-colonnes .colonne1 {
+      width: 60vw;
+      height: 600px;
+      background-color: #190aeb; 
+      margin: 20px;
+      position: relative; /* permet d indiquer que l'element est un repere pour les elements enfants absolus, càd par rappport au carré bblanc
+       */
+
+  }
+
+   section.services .position-des-colonnes .colonne2 {
+      width: 20vw;
+      height: 600px;
+      background-color: #dce5eb; 
+      margin: 20px;
+      position: relative; /* permet d indiquer que l'element est un repere pour les elements enfants absolus, càd par rappport au carré bblanc
+       */
+       display: flex;       
+  }
+    section.services .position-des-colonnes .colonne2 img {
+        width: 20vw;
+        height: 600px;
+        
+   
+    }
+  

@@ -19,13 +19,13 @@ header {
    background-position: top center; /*position de l'image, seule la partie haut visible*/
    background-repeat: no-repeat; /*ne pas repeter l'image*/
    position: fixed;
-
    color: #000;
-
    display: flex;
    justify-content: space-between;
    padding: 20px 40px;
    align-items: center;
+   top: 0;
+   left: 0;
    
 }
 
@@ -36,7 +36,7 @@ header img {
 
 main {
    width: 100%;
-   min-height: 100px;
+   max-height: 100px; 
 }
 
 footer {
