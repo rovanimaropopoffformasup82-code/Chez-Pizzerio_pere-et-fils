@@ -18,6 +18,7 @@ header {
    background-size: cover; /*la taille de l'image*/
    background-position: top center; /*position de l'image, seule la partie haut visible*/
    background-repeat: no-repeat; /*ne pas repeter l'image*/
+   position: fixed;
 
    color: #000;
 
