@@ -1,0 +1,22 @@
+footer .menu-footer ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+}
+footer .cgu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+}
+footer .reseaux-sociaux ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer ul li a:hover {
+    color:#d38e26;
+}

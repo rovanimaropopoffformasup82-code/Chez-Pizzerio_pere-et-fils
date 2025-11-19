@@ -43,40 +43,41 @@ h1 {
       display: flex;
       flex-direction: column; /*empliler sous h1 les 2 colonnes-services*/
       align-items: center;
-      position: relative; /* permet d indiquer que l'element est un repere pour les elements enfants absolus, càd par rappport au carré bblanc
-         */
-
   }
 
    section.services .position-des-colonnes .colonne1 .colonnes-services {
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 20px; 
+    justify-content: space-around; 
     gap: 30px; /* espace entre les 2 colonnes-services */
    
 }
 
     section.services .position-des-colonnes .colonne1 .colonnes-services .colonne-restaurant {
-    color: #4206e9;
+    color: #ffffff;
     width: 100%;
     text-align: center;
    
 }
 
     section.services .position-des-colonnes .colonne1 .colonnes-services .colonne-pizzeria {
-    color: #b3ecbc;
+    color: #ffffff;
     width: 100%;
     text-align: center;
 }
 
-section.services .position-des-colonnes .colonne1 .colonnes-services h2 {
-    margin-bottom: 10px; /*espace entre le titre et le paragraphe*/
+section.services .position-des-colonnes .colonne1 .colonnes-services ul {
+    list-style: none;
 }
 
-section.services .position-des-colonnes .colonne1 .colonnes-services p {
-    margin: 0; /*supprimer les marges par défaut */
+section.services .position-des-colonnes .colonne1 .colonnes-services li {
+    margin-bottom: 8px; /* Espace entre chaque ligne */
+}
+
+
+section.services .position-des-colonnes .colonne1 .colonnes-services h2 {
+    margin-bottom: 10px; /*espace entre le titre et le paragraphe*/
 }
 
    section.services .position-des-colonnes .colonne2 {
