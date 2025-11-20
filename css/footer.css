@@ -20,3 +20,18 @@ footer .reseaux-sociaux ul li a{
 footer ul li a:hover {
     color:#d38e26;
 }
+
+.map {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.map p {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+.map iframe {
+    border-radius: 5px;
+}
